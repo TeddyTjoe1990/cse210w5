@@ -11,7 +11,6 @@ class ControlActorsAction(Action):
   Attributes:
     _keyboard_service (KeyboardService): An instance of KeyboardService.
   """
-
   def __init__(self, keyboard_service):
     """Constructs a new ControlActorsAction using the specified KeyboardService.
         

@@ -12,7 +12,6 @@ class HandleCollisionsAction(Action):
   Attributes:
     _is_game_over (boolean): Whether or not the game is over.
   """
-
   def __init__(self):
     """Constructs a new HandleCollisionsAction"""
     self._is_game_over = False
