@@ -29,3 +29,4 @@ root                                        (Project roo folder)
 README.md                                   (General Info)
 ```
 ## Authors
+Tjoe Teddy - jethe90@gmail.com
