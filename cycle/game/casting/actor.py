@@ -4,7 +4,9 @@ from game.shared.point import Point
 
 class Actor:
   """A visible, moveable thing that participates in the game
+  
   The responsibiity of Actor is to keep track of its appearance, posisition and velocity in 2d space
+  
   Attributes:
     _text (string): The text to display
     _font_size (int): The font size to use

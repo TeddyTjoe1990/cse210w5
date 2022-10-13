@@ -56,8 +56,9 @@ class VideoService:
       self.draw_actor(actor, centered)
     
   def flush_buffer(self):
-    """Copies the buffer contents to the screen. 
-    This method should be called at the end of the game's output phase.
+    """Copies the buffer contents to the screen
+    
+    This method should be called at the end of the game's output phase
     """ 
     pyray.end_drawing()
 
