@@ -5,7 +5,7 @@ from game.shared.point import Point
 class Cycle(Actor):
   """A bike with a light trail behind it
     
-  The responsibility of Cycle is to move itself.
+  The responsibility of Cycle is to move itself
 
   Attributes:
     _points (int): The number of points the food is worth.

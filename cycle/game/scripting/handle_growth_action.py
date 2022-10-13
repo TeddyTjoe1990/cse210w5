@@ -1,7 +1,7 @@
 from game.scripting.action import Action
 
 class HandleGrowthAction(Action):
-  """An update action that handles growth of the cycle actors.
+  """An update action that handles growth of the cycle actors
     
   The responsibility of HandleGrowthAction is to handle the growth of the tail of each cycle
   at regular intervals when the game is going.

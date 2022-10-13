@@ -4,7 +4,7 @@ from game.scripting.action import Action
 from game.shared.point import Point
 
 class HandleCollisionsAction(Action):
-  """An update action that handles interactions between the actors.
+  """An update action that handles interactions between the actors
     
   The responsibility of HandleCollisionsAction is to handle the situation when a cycle collides
   with another cycle or with its segments, or the game is over.

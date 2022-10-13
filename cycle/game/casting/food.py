@@ -4,11 +4,11 @@ from game.casting.actor import Actor
 from game.shared.point import Point
 
 class Food(Actor):
-  """A tasty item that snakes like to eat.
-  The responsibility of Food is to select a random position and points that it's worth.
+  """A tasty item that snakes like to eat
+  The responsibility of Food is to select a random position and points that it's worth
 
   Attributes:
-    _points (int): The number of points the food is worth.
+    _points (int): The number of points the food is worth
   """
   def __init__(self):
     """Construct a new food"""

@@ -1,7 +1,7 @@
 class Cast:
   """A collection of Actors
   The responsibility of a cast is to keep track of a collection of actors. It has methods for 
-  adding, removing and getting them by a group name.
+  adding, removing and getting them by a group name
   Attributes:
     _actors (dict): A dictionary of actors { key: group_name, value: a list of actors }
   """
@@ -10,11 +10,11 @@ class Cast:
     self._actors = {}
     
   def add_actor(self, group, actor):
-    """Adds an actor to the given group.
+    """Adds an actor to the given group
 
     Args:
-      group (string): The name of the group.
-      actor (Actor): The actor to add.
+      group (string): The name of the group
+      actor (Actor): The actor to add
     """
     if not group in self._actors.keys():
       self._actors[group] = []
@@ -47,13 +47,13 @@ class Cast:
     return results
   
   def get_first_actor(self, group):
-    """Gets the first actor in the given group.
+    """Gets the first actor in the given group
         
     Args:
-      group (string): The name of the group.
+      group (string): The name of the group
             
     Returns:
-      List: The first actor in the group.
+      List: The first actor in the group
     """
     result = None
     if group in self._actors.keys():
