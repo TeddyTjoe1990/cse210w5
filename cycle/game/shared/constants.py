@@ -1,5 +1,6 @@
 from game.shared.color import Color
 
+# Just a list of constants for reference elsewhere, nothing to see here.
 COLUMNS = 40
 ROWS = 20
 CELL_SIZE = 15
@@ -11,6 +12,6 @@ CAPTION = "Cycles"
 SNAKE_LENGTH = 8
 WHITE = Color(255, 255, 255)
 RED = Color(255, 0, 0)
+YELLOW = Color(255, 255, 0)
 GREEN = Color(0, 255, 0)
 BLUE = Color(0, 0, 255)
-YELLOW = Color(255, 255, 0)
